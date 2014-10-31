@@ -1,6 +1,6 @@
 # Soy language support in Atom
 
-Adds syntax highlighting to Soy template files in Atom
+Adds syntax highlighting and snippets to Soy template files in Atom
 
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
 from the [SoyTemplate TextMate bundle](https://github.com/anvie/SoyTemplate).

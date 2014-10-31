@@ -1,0 +1,14 @@
+'*':
+  'HTML Form':
+    'prefix': 'form'
+    'body': '<form action="$1" method="${2:get}" accept-charset="utf-8">\n\t$0\n\n\t<p><input type="submit" value="Continue &rarr;"${TM_XHTML}></p>\n</form>'
+  'New call':
+    'prefix': 'call'
+    'body': '{call .${1:funcName}${2: data="$3"}${4: /}}'
+  'New msg':
+    'prefix': 'msg'
+    'body': '{msg desc="${1:}"}${2:}{/msg}'
+'.source.soy':
+  'New template':
+    'prefix': 'tmpl'
+    'body': '/**\n * $1\n */\n{template .${1:fname}}\n\t$2\n{/template}\n'

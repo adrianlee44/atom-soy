@@ -1,0 +1,20 @@
+{
+  "name": "soy",
+  "version": "0.0.0",
+  "description": "Soy language support in Atom",
+  "repository": "https://github.com/atom/soy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  },
+  "homepage": "https://github.com/adrianlee44/atom-soy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrianlee44/atom-soy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianlee44/atom-soy/issues"
+  }
+}
